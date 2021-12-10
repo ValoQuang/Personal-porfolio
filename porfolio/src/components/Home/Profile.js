@@ -1,31 +1,40 @@
 import React from 'react'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GoogleIcon from '@mui/icons-material/Google';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
-export const Profile = () => {
+export default function Profile() {
     return (
         <div className="profile-container">
             <div className="profile-parent">
                 <div className="profile-details">
                     <div className="colz">
                     <a href="https://www.facebook.com/ngoc.quang.754/">
-                        <i className="fa-fa-facebook-square"></i>
+                        <FacebookIcon/>
                     </a>
                     <a href="https://www.google.com/">
-                        <i className="fa-fa-google-plus-square"></i>
+                        <GoogleIcon/>
                     </a>
                     <a href="https://www.instagram.com/">
-                        <i className="fa-fa-instagram"></i>
+                        <InstagramIcon/>
                     </a>
                     <a href="https://www.youtube.com/">
-                        <i className="fa-fa-youtube-square"></i>
+                        <YouTubeIcon/>
                     </a>
                     <a href="https://twitter.com/">
-                        <i className="fa-fa-github-square"></i>
+                        <TwitterIcon/>
                     </a>
                     </div>
+                </div>
+                <div className ="profile-details-name">
+                    <span className="primary-text">
+                        {" "}
+                        Hello, I am <span className='highlighted-text'>Quang Truong</span>
+                    </span>
                 </div>
             </div>
         </div>
     )
 }
-
-export default Profile

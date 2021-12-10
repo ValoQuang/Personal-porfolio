@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import Profile from './components/Home/Profile';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Profile/>
     </div>
   );
 }
