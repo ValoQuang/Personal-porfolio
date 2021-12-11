@@ -109,5 +109,33 @@
 }
 
 @media screen and (max-width: 910px) {
-    
+    .profile-picture {
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
 }
+
+@media screen and (max-width: 810px) {
+    .profile-picture {
+        margin: 0 !important;
+    }
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile-options {
+        display:flex;
+        justify-content: space-between;
+    }
+    .profile-details {
+        margin: 25px 0 0;
+    }
+    .profile-options .highlighted-bbtn {
+        margin: 0 !important;
+    }
+    .profile-options .profile-details-role {
+        text-align:center;
+    }
+}
+
