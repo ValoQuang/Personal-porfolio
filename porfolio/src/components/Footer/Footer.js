@@ -1,12 +1,12 @@
 import React from 'react'
 
-import "./Profile.css"
+import "./Footer.css"
 
 export const Footer = () => {
     return (
         <div className='footer-container'>
             <div className='footer-parent'>
-                <img src={required ("../../../assets/Home/shape-bg.png")} alt="background picture"/>
+                <img src={require ("../../assets/Home/bg.jpg").default} alt="background picture"/>
                 
             </div>
         </div>

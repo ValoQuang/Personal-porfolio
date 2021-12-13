@@ -1,13 +1,12 @@
-import Profile from './components/Home/Profile';
-import Footer from "./components/Footer/Footer"
+import Home from './components/Home/Home';
+import Porfolio from './components/Porfolio';
 
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <Profile/>
-      <Footer/>
+      <Porfolio/>
     </div>
   );
 }
