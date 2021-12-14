@@ -4,7 +4,7 @@ import {Subject} from "rxjs"
 export default class ScrollService {
     static scrollHandler = new ScrollService();
     static currentScreenBroadCaster = new Subject();
-    static currentScreenFading = new Subject();
+    static currentScreenFadeIn = new Subject();
 
     constructor() {
         window.addEventListener('scroll', this.checkCurrentScreenUnderViewport);
@@ -35,7 +35,7 @@ export default class ScrollService {
         }
     }
     checkCurrentScreenUnderViewport =(event)=>{
-        if(!event || object.keys(event).length <1) return;
+        if(!event || Object.keys(event).length <1) return;
         for (let screen of TOTAL_SCREENS) {
             let screenFromDOM = document.getElementById(screen.screen_name);
             if(!screenFromDOM) continue;

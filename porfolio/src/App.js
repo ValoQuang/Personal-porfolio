@@ -1,5 +1,5 @@
-import Home from './components/Home/Home';
 import Porfolio from './components/Porfolio';
+
 
 import './App.css';
 
