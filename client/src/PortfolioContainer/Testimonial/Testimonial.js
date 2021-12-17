@@ -63,8 +63,8 @@ export default function Testimonial(props) {
                     <p>
                       <i className="fa fa-quote-left" />
                       I patronized Quang and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      fell in love with the work and he is a very honest guy and
+                      full of positive energy.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -87,8 +87,8 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <h5>Hannah</h5>
+                    <p>SSP Finland</p>
                   </div>
                 </div>
               </div>
